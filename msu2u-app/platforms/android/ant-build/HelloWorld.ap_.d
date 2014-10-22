@@ -119,6 +119,7 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen\webos\screen-64.png \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen\windows-phone\screen-portrait.jpg \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.8b486223.js \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.cf2858f2.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\vendor.1672ca6e.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\helper.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\index.js \
@@ -128,8 +129,12 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\j
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\MIT.LICENSE \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.2b53e498.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e0afbcbc.css \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.f86b01df.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\vendor.71c590b0.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\about.html \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\directory.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\main.html \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\maps.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\ant-build\AndroidManifest.xml \

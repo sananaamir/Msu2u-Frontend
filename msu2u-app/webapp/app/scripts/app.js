@@ -27,6 +27,14 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+    .when('/directory', {
+        templateUrl: 'views/directory.html',
+        controller: 'DirectorycontrollerCtrl'
+    })
+    .when('/maps', {
+        templateUrl: 'views/maps.html',
+        controller: ''
+    })
       .otherwise({
         redirectTo: '/'
       });
