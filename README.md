@@ -2,4 +2,4 @@ Msu2u-Frontend
 ==============
 Setting up the first repository
 Checking the name on commit
-Checking commit name
+Checking commit after configuring email
