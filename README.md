@@ -1,5 +1,4 @@
 Msu2u-Frontend
 ==============
-Setting up the first repository
-Checking the name on commit
-Checking commit after configuring email
+First exercise for the front end team:
+http://yeoman.io/codelab.html

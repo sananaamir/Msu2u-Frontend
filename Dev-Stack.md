@@ -1,0 +1,12 @@
+- vagrant https://www.vagrantup.com/
+- angularJs
+- yoeman
+- bower
+- grunt
+- node.js
+- phalcon / phalcon-rest / phalcon-tools
+- php
+- phoneGap
+- mysql
+- bootstrap
+- less
