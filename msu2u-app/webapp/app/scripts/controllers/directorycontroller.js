@@ -17,7 +17,7 @@ angular.module('msu2uAppApp')
         
         $http({
               method: 'GET', 
-              url: 'http://api.randomuser.me/?results=5&seed=foobar',
+              url: 'scripts/persons.json',
               cache: $templateCache
           }).
           success(function(data, status) {

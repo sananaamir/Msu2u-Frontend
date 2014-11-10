@@ -3,20 +3,37 @@
 <div ng-controller="DirectorycontrollerCtrl">
     
     
-    <table class="table table-hover">
+   <!-- <table class="table table-hover">
         <tbody>
         <tr class="row">
-            <td class="col-md-2">Picture</td>
-            <td class="col-md-2">First Name</td>
-            <td class="col-md-2">Last Name </td>
+            <td>Picture</td>
+            <td>First Name</td>
+            <td>Last Name </td>
         </tr>
         
         <tr class="row" ng-repeat="datum in data.results">
-            <td class="col-md-2"><img src={{datum.user.picture.thumbnail}}></td>
-            <td class="col-md-2">{{datum.user.name.first}}</td>
-            <td class="col-md-2">{{datum.user.name.last}}</td>
+            <td><img src={{datum.user.picture.thumbnail}}></td>
+            <td>{{datum.user.name.first}}</td>
+            <td>{{datum.user.name.last}}</td>
     
         </tr>
+        </tbody>
+    </table>    -->
+
+    <table class="table table-hover">
+        <tbody style="color:#ecac00;">
+            <tr>
+                <td>Picture</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr>
+            
+            <tr ng-repeat="datum in data.records[0]">
+                <td ng-if="datum.picture == ''"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMUXoOAdK9TLsIDtMVXfED4n5o5c_HWU2-U1KESWTuXzci2BVeXQ3AVHM"></td>
+                <td ng-if="datum.picture !== ''"><img src={{datum.picture}}></td>
+                <td>{{datum.fName}}</td>
+                <td>{{datum.lName}}</td>
+            </tr>
         </tbody>
     </table>
     
