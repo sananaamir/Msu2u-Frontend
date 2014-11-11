@@ -36,6 +36,14 @@ angular
         templateUrl: 'views/maps.html',
         controller: ''
     })
+    .when('/wfma', {
+        templateUrl: 'views/wfma.html',
+        controller: 'WfmacontrollerCtrl'
+    })
+    .when('/news', {
+        templateUrl: 'views/news.html',
+        controller: 'NewscontrollerCtrl'
+    })
       .otherwise({
         redirectTo: '/'
       });
