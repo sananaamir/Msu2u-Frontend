@@ -15,22 +15,28 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body >
+  <body id="grad">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->  
-    <div id="grad">    
+    <table class="table table-hover col-sm-12" style="text-align:center;">    
       <h3 class="text-muted">msu2uApp</h3>
-      <ul>
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-      </ul>
+      <tbody style="color:#ecac00;">
+          <tr><td><a ng-href="#">Home</a></td></tr>          
+          <tr><td><a ng-href="#/directory">Directory</a></td></tr>
+          <tr><td><a ng-href="#/news">News</a></td></tr>
+          <tr><td><a ng-href="#/wfma">WFMA</a></td></tr>
+          <tr><td><a ng-href="#/maps">Map</a></td></tr>
+          <tr><td><a ng-href="#">Twitter Feeds</a></td></tr>
+          
+        </tbody>
 
-      <div ng-view=""></div>
-    </div>
+    </table>
+      
+    <div ng-view=""></div>  
+      
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

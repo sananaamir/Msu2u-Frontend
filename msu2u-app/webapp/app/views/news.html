@@ -1,9 +1,9 @@
-<h1>Directory</h1>
+<h1>News</h1>
 
 <div ng-controller="NewscontrollerCtrl">
     
 <ul ng-repeat="datum in data.records[0]">
-    <li>{{datum.title}}</li>
+    <li><a ng-href={{datum.link}}>{{datum.title}}</a></li>
 </ul>
     
 </div>
