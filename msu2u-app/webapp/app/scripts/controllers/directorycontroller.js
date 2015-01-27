@@ -17,7 +17,7 @@ angular.module('msu2uAppApp')
         
         $http({
               method: 'GET', 
-              url: 'scripts/persons.json',
+              url: 'http://cs.mwsu.edu/msu2u-api/v1/persons',
               cache: $templateCache
           }).
           success(function(data, status) {

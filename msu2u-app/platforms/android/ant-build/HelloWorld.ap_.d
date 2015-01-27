@@ -118,12 +118,15 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen\tizen\README.md \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen\webos\screen-64.png \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen\windows-phone\screen-portrait.jpg \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\news.json \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\persons.json \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.8b486223.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.a3e4e7a3.js \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.c87bfe40.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.cf2858f2.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\vendor.1672ca6e.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\vendor.9fe3e166.js \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\wfma.json \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\helper.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\index.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib \
@@ -134,6 +137,7 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\j
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\MIT.LICENSE \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.2b53e498.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.2de761d0.css \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.7eefa83b.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e07d461e.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e0afbcbc.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.f86b01df.css \
@@ -142,4 +146,6 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\abou
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\directory.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\main.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\maps.html \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\news.html \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\wfma.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\ant-build\AndroidManifest.xml \

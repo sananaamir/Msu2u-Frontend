@@ -20,22 +20,33 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->  
-    <table class="table table-hover col-sm-12" style="text-align:center;">    
-      <h3 class="text-muted">msu2uApp</h3>
-      <tbody style="color:#ecac00;">
-          <tr><td><a ng-href="#">Home</a></td></tr>          
-          <tr><td><a ng-href="#/directory">Directory</a></td></tr>
-          <tr><td><a ng-href="#/news">News</a></td></tr>
-          <tr><td><a ng-href="#/wfma">WFMA</a></td></tr>
-          <tr><td><a ng-href="#/maps">Map</a></td></tr>
-          <tr><td><a ng-href="#">Twitter Feeds</a></td></tr>
-          
-        </tbody>
+    <!-- Add your site or application content here -->    
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button style="color:black;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-    </table>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a ng-href="#">Home</a></li>          
+                <li><a ng-href="#/directory">Directory</a></li>
+                <li><a ng-href="#/news">News</a></li>
+                <li><a ng-href="#/wfma">WFMA</a></li>
+                <li><a ng-href="#/maps">Map</a></li>
+                <li><a ng-href="#">Twitter Feeds</a></li>            
+            </ul>
+        </div>
+    </div>
+</nav>  
       
-    <div ng-view=""></div>  
+    <div ng-view=""></div>
       
 
 
