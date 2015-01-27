@@ -3,6 +3,17 @@
 <div ng-controller="DirectorycontrollerCtrl">
     
 
+        <!-- Small modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>-->
+    
     <table class="table table-hover">
         <tbody style="color:#ecac00;">
             <tr>
@@ -12,13 +23,30 @@
             </tr>
             
             <tr ng-repeat="datum in data.records[0]">
-                <td ng-if="datum.picture == ''"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMUXoOAdK9TLsIDtMVXfED4n5o5c_HWU2-U1KESWTuXzci2BVeXQ3AVHM"></td>
-                <td ng-if="datum.picture !== ''"><img src={{datum.picture}}></td>
-                <td>{{datum.fName}}</td>
-                <td>{{datum.lName}}</td>
+                <td ng-if="datum.picture == ''"><img class="picture-width" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMUXoOAdK9TLsIDtMVXfED4n5o5c_HWU2-U1KESWTuXzci2BVeXQ3AVHM"></td>
+                <td ng-if="datum.picture !== ''"><img class="picture-width" src={{datum.picture}}></td>
+                <td>
+                    
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".{{datum.fName}}">{{datum.fName}}</button>
+
+                    <div class="modal fade {{datum.fName}}" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <p>{{datum.fName}}</p>
+                            <p>{{datum.email}}</p>
+                            <p>{{datum.phone1}}</p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                </td>
+                <td class="picture-width">{{datum.lName}}</td>
             </tr>
         </tbody>
     </table>
     
+
+
     
 </div>

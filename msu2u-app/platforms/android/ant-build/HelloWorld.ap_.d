@@ -140,10 +140,12 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\mai
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.7eefa83b.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e07d461e.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e0afbcbc.css \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e3683acc.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.f86b01df.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\vendor.71c590b0.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\about.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\directory.html \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\home.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\main.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\maps.html \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\views\news.html \
