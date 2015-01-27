@@ -15,3 +15,10 @@ body {
   background: -moz-linear-gradient(#660000, #efe5e5); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#660000, #efe5e5); /* Standard syntax */
 }
+
+.picture-width{
+    
+    width:100%;
+    max-width: 100px;
+    
+}
