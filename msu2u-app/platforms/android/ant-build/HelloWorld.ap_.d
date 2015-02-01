@@ -120,6 +120,7 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\res\screen\windows-phone\screen-portrait.jpg \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\news.json \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\persons.json \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.527533ac.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.8b486223.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.a3e4e7a3.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.c87bfe40.js \
@@ -135,6 +136,7 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\j
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\spec\lib\jasmine-1.2.0\MIT.LICENSE \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.267468ea.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.2b53e498.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.2de761d0.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.7eefa83b.css \

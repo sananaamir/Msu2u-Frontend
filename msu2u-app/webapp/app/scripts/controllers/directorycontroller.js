@@ -11,13 +11,13 @@ angular.module('msu2uAppApp')
   .controller('DirectorycontrollerCtrl', function ($scope, $http, $templateCache) {
 
       $scope.fetch = function(){
-        
+          //http://cs.mwsu.edu/msu2u-api/v1/persons
         $scope.code = 'null';
         $scope.response = 'null';
         
         $http({
               method: 'GET', 
-              url: 'http://cs.mwsu.edu/msu2u-api/v1/persons',
+              url: 'https://secure.mwsu.edu/api-2/public/staff',
               cache: $templateCache
           }).
           success(function(data, status) {
