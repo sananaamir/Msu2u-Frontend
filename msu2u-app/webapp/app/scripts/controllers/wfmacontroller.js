@@ -10,7 +10,9 @@
 angular.module('msu2uAppApp')
   .controller('WfmacontrollerCtrl', function ($scope, $http, $templateCache) {
     $scope.fetch = function(){
-        
+        //https://www.googleapis.com/youtube/v3/videos?id=7lCDEYXw3mM&key=AIzaSyD2zfFUvJ4pGZ5btaUlL4xPQ_59cBBf5MA%20&part=snippet,statistics
+        //http://cs.mwsu.edu/msu2u-api/v1/wfma
+        //UCZhSa5HFzWhRnu1zxHXOC5w
         $scope.code = 'null';
         $scope.response = 'null';
         

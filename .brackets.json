@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/xampp/htdocs/Msu2u-Frontend/msu2u-app/webapp/bower_components/angular-route/angular-route.js",
+        "C:/xampp/htdocs/Msu2u-Frontend/msu2u-app/platforms/android/assets/www/spec/index.js"
+    ]
+}

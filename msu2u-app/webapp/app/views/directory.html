@@ -2,6 +2,7 @@
 
 <div ng-controller="DirectorycontrollerCtrl">
     
+    <input type="text" class="form-control" placeholder="Search" ng-model="nameFilter" style="width:30%;">
     <table class="table table-hover">
         <tbody style="color:#ecac00;">
             <tr>
@@ -11,7 +12,7 @@
                 <td>More Info</td>
             </tr>
             
-            <tr ng-repeat="datum in data">
+            <tr ng-repeat="datum in data | filter:searchFilter">
                 <td ng-if="datum.PhotoFileName == null"><img class="picture-width" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMUXoOAdK9TLsIDtMVXfED4n5o5c_HWU2-U1KESWTuXzci2BVeXQ3AVHM"></td>
                 <td ng-if="datum.PhotoFileName !== null"><img class="picture-width" src={{datum.PhotoFileName}}></td>
                 <td class="picture-width">{{datum.Name_First}}</td>
