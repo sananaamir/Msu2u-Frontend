@@ -16,7 +16,7 @@ angular.module('msu2uAppApp')
         
         $http({
               method: 'GET', 
-              url: 'scripts/news.json',
+              url: 'http://cs.mwsu.edu/msu2u-api/v1/news',
               cache: $templateCache
           }).
           success(function(data, status) {
@@ -31,4 +31,5 @@ angular.module('msu2uAppApp')
     };
     
     $scope.fetch();
+    
   });

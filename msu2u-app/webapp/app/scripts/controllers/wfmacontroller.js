@@ -16,7 +16,7 @@ angular.module('msu2uAppApp')
         
         $http({
               method: 'GET', 
-              url: 'scripts/wfma.json',
+              url: 'http://cs.mwsu.edu/msu2u-api/v1/wfma',
               cache: $templateCache
           }).
           success(function(data, status) {
