@@ -2,8 +2,8 @@
 
 <div ng-controller="DirectorycontrollerCtrl">
     
-    <input type="text" class="form-control" placeholder="Search" ng-model="nameFilter" style="width:30%;">
-    <table class="table table-hover">
+    <input type="text" class="form-control" placeholder="Search" ng-model="searchFilter" style="width:30%;">
+    <table class="table">
         <tbody style="color:#ecac00;">
             <tr>
                 <td>Picture</td>
@@ -19,7 +19,7 @@
                 <td class="picture-width">{{datum.Name_Last}}</td>
                 
                 <td class="picture-width">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".{{datum.Name_First}}{{datum.ID}}">More Info</button>
+                    <a style="text-decoration:none;" class="fa fa-info-circle fa-2x" data-toggle="modal" data-target=".{{datum.Name_First}}{{datum.ID}}"></a>
 
                     <div class="modal fade {{datum.Name_First}}{{datum.ID}}" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-sm">
@@ -35,8 +35,5 @@
             </tr>
         </tbody>
     </table>
-    
-
-
     
 </div>

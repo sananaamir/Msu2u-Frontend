@@ -1,1 +1,8 @@
-<h1>WFMA</h1> <div ng-repeat="datum in data.records[0]" class="col-sm-6 col-sm-offset-3"> <h3>{{datum.title}}</h3> <div ng-bind-html="datum.shortDescription"></div> <a ng-href="{{datum.link}}">Read More...</a> <hr> </div> 
+<h1>WFMA</h1> <div ng-repeat="datum in data.records[0]" class="col-sm-6 col-sm-offset-3"> <h3>{{datum.title}}</h3> <div ng-bind-html="datum.shortDescription"></div> <a ng-href="{{datum.link}}">Read More...</a> <hr> </div>  <!--<h1>WFMA</h1>
+
+    <div ng-repeat="datum in data.items" class="col-sm-6 col-sm-offset-3">
+        <h3>{{datum.snippet.title}}</h3>
+        <hr>
+    </div>
+    
+</div>-->
