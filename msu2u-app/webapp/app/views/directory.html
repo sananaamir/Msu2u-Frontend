@@ -13,8 +13,8 @@
             </tr>
             
             <tr ng-repeat="datum in data | filter:searchFilter">
-                <td ng-if="datum.PhotoFileName == null"><img class="picture-width" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMUXoOAdK9TLsIDtMVXfED4n5o5c_HWU2-U1KESWTuXzci2BVeXQ3AVHM"></td>
-                <td ng-if="datum.PhotoFileName !== null"><img class="picture-width" src={{datum.PhotoFileName}}></td>
+                <td class="picture-width" ng-if="datum.PhotoFileName == null"><img style="width:100%;"  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMUXoOAdK9TLsIDtMVXfED4n5o5c_HWU2-U1KESWTuXzci2BVeXQ3AVHM"></td>
+                <td class="picture-width" ng-if="datum.PhotoFileName !== null"><img style="width:100%;" src={{datum.PhotoFileName}}></td>
                 <td class="picture-width">{{datum.Name_First}}</td>
                 <td class="picture-width">{{datum.Name_Last}}</td>
                 
