@@ -8,14 +8,78 @@ body {
     background-attachment: fixed;
 }
 */
+
+body,html,.row-offcanvas {
+  height:100%;
+}
+
+body {
+  padding-top: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sidebar {
+  width: inherit;
+  min-width: 220px;
+  max-width: 220px;
+  background-color:#f5f5f5;
+  float: left;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+#main {
+  height:100%;
+  overflow:auto;
+}
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    width:calc(100% + 220px);
+  }
+    
+  .row-offcanvas-left
+  {
+    left: -220px;
+  }
+
+  .row-offcanvas-left.active {
+    left: 0;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+  }
+}
+
+
+/***SOME MENU TESTING ENDING HERE***/
+
+
 #grad {
     
     height: 100%;
     width: 100%;
-    background: -webkit-linear-gradient(left, #660000, #efe5e5); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #660000, #efe5e5); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #660000, #efe5e5); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #660000, #efe5e5); /* Standard syntax */
+    /*background: -webkit-linear-gradient(left, #330000, #e6cccc); /* For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(right, #660000, #efe5e5); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(right, #660000, #efe5e5); /* For Firefox 3.6 to 15 
+    background: linear-gradient(to right, #660000, #efe5e5); /* Standard syntax 
+    */
+    background: #800000;
+    
 }
 
 .picture-width{
@@ -43,7 +107,7 @@ Platforms:   Mobile & Tablet
 body{
 	height:100%;
     background-color:#ececec;
-}*/
+}
 
 h1, h2, h3, h4, h5, h6{
  font-weight: 500;   
@@ -270,7 +334,7 @@ h6{
     
 /*Quote Slider*/
 
-/* 8. Quote Slider */
+/* 8. Quote Slider 
 
 .quote-slider h4{
 	font-family:'Roboto', sans-serif;
@@ -302,7 +366,7 @@ h6{
     font-size:14px;
 }
     
-/*Featured Project*/
+/*Featured Project
 
 .featured-item img{
     width:250px;
@@ -339,7 +403,7 @@ h6{
 }
 
 
-/*Homepage Gallery*/
+/*Homepage Gallery
 
 .homepage-gallery h3{
     margin-bottom:0px;   
@@ -350,7 +414,7 @@ h6{
     margin-bottom:0px;
 }
 
-/*Footer*/
+/*Footer
 
 
 .footer p{
@@ -418,9 +482,9 @@ h6{
 .show-right-sidebar i{
     text-shadow:0px 1px 0px rgba(0,0,0,0.1);
 }
+*/
 
-
-/*Sidebar*/
+/*Sidebar
 
 
 .sidebar-header{
@@ -452,8 +516,8 @@ h6{
     height:20px;
     display:block;
 }
-
-/*Sidebar Navigation*/
+*/
+/*Sidebar Navigation
 
 .selected{
     background-color: #eeeeee;
@@ -515,9 +579,9 @@ h6{
     padding-bottom:32px;
     opacity:0.5;
 }
+*/
 
-
-/*Sidebar Form*/
+/*Sidebar Form
 
 .sidebar-form{
 
@@ -617,4 +681,4 @@ h6{
 
 .maps-container{
     padding:0px!important;   
-}
+}*/

@@ -32,4 +32,5 @@ angular.module('msu2uAppApp')
     
     $scope.fetch();
     
+    
   });
