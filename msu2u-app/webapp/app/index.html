@@ -5,6 +5,9 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
+    <!-- build:css(.tmp) styles/main.css -->    
     <link rel="stylesheet" href="styles/main.css">
       <link rel="stylesheet" href="styles/animate.css">
       <link rel="stylesheet" href="styles/framework.css">
@@ -30,30 +33,41 @@
 
     <!-- Add your site or application content here -->    
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a ng-href="#">Home</a></li>          
-                <li><a ng-href="#/directory">Directory</a></li>
-                <li><a ng-href="#/news">News</a></li>
-                <li><a ng-href="#/wfma">WFMA</a></li>
-                <li><a ng-href="#/maps">Map</a></li>       
-            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling-->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a ng-href="#">Home</a></li>          
+                    <li><a ng-href="#/directory">Directory</a></li>
+                    <li><a ng-href="#/news">News</a></li>
+                    <li><a ng-href="#/wfma">WFMA</a></li>
+                    <li><a ng-href="#/maps">Map</a></li>       
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>  
+      </nav>
+
+      <div ng-view=""></div> 
+
       
-    <div ng-view=""></div>
+      
+      
+      <!--End Testing nav-->
+      <!--<div ng-view="">
+        <div class="header material-box">
+            <a href="#" class="header-nav-left open-left"><i class="fa fa-navicon"></i></a>
+        </div>
+      </div>  
+    -->
       
 
 
@@ -85,7 +99,8 @@
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
-      <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -96,6 +111,8 @@
         <script src="scripts/controllers/directorycontroller.js"></script>
         <script src="scripts/controllers/wfmacontroller.js"></script>
         <script src="scripts/controllers/newscontroller.js"></script>
+        <script src="scripts/framework.plugins.js"></script>  
+        <script src="scripts/custom.js"></script>
         <!-- endbuild -->
 </body>
 </html>
