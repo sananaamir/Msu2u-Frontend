@@ -144,6 +144,7 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\sc
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.aed3f2fa.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.c87bfe40.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.cf2858f2.js \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\scripts.f4591e88.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\vendor.1672ca6e.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\vendor.438bebbf.js \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\scripts\vendor.9fe3e166.js \
@@ -176,6 +177,8 @@ c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\mai
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e0afbcbc.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e12c4e10.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.e3683acc.css \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.eec5ef63.css \
+c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.f7bc4887.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\main.f86b01df.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\owl.theme.css \
 c:\xampp\htdocs\Msu2u-Frontend\msu2u-app\platforms\android\assets\www\styles\swipebox.css \
