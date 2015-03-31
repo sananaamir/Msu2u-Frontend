@@ -44,6 +44,10 @@ angular
         templateUrl: 'views/news.html',
         controller: 'NewscontrollerCtrl'
     })
+    .when('/sports', {
+        templateUrl: 'views/sports.html',
+        controller: 'SportsCtrl'
+    })
       .otherwise({
         redirectTo: '/'
       });
