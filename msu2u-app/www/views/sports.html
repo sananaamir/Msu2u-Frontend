@@ -1,0 +1,1 @@
+<h1 style="color:#ecac00">Sports</h1> <div ng-controller="SportsCtrl"> <div ng-repeat="datum in data.responseData.feed.entries" class="col-sm-6 col-sm-offset-3"> <h3 style="color:#ecac00">{{datum.title}}</h3> <p style="color:white">{{datum.contentSnippet}}</p> <a ng-href="{{datum.link}}">Read More...</a> <hr> </div> </div>
