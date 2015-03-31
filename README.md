@@ -18,6 +18,7 @@ Getting Started (contributors):
 - If Dev environment is setup:
   - Clone the repo
   - Change directory to webapp
-  - Type `npm-install`
-  - Type `bower-install`
+  - Type `npm install`
+  - Type `bower install`
+  - Type `bower install angular-bootstrap`
   - Build the app and serve it by typing `grunt --force serve`
